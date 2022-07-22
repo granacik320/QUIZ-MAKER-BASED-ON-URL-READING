@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "Montserrat";
+}
+html{
+    background: #F3F0FF;
+}
+nav{
+    height: 100vh;
+    width: 80px;
+    background-color: #A39ADE;
+    background-image: linear-gradient(to bottom right, #A39ADE, #CED6F4);
+}
+nav div{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    transition: 0.15s;
+    cursor:pointer;
+}
+.navbutton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -24px 0 0 -24px;
+} 
+.navbuttonmake{
+    background: #9062f415;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+nav div:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25)
+}
+.blur{
+    position: absolute;
+    left: 80px;
+    width: calc(100% - 80px);
+    height: 80px;
+    bottom: 0px;
+    background: #F3F0FF;
+    box-shadow:  10px -20px 20px 0px #F3F0FF;
+}
+main{
+    overflow-y:scroll;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    width: calc(100% - 80px);
+    height: 95vh;
+}
+h1{
+    position: relative;
+    top: 50px;
+    left: 15%;
+    font-size: 32px;
+    font-weight: 300;
+    width: 200px;
+}
+main article{
+    position: relative;
+    top: 50px;
+    left: 15%;
+    width: 40vw;
+}
+main section{
+    margin-top: 40px;
+    width: 40vw;
+    height: 350px;
+    background: #C3C2F9;
+    border-radius: 22px;
+}
+main section input{
+    width: calc(100% - 10vw);
+    height: 20px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    height: 30px;
+    border-radius: 7px;
+    background: #A39ADE50;
+    border: 0px solid;
+    font-size:18px;
+    font-weight: 500;
+}
+.ask{
+    position: relative;
+    width: calc(100% - 10vw);
+    top: 30px;
+    left: 30px;
+    border-radius: 7px;
+    background: #A39ADE50;
+}
+.ask span{
+    position: relative;
+    top: 2px;
+    left: 15px;
+    font-size:20px;
+    font-weight: 500;
+}
+
+main section textarea{
+    width: calc(100% - 70px);
+    position: relative;
+    top: 50px;
+    left: 30px;
+    height: 180px;
+    border-radius: 7px;
+    background: #A39ADE50;
+    border: 2px solid #9162F415;
+    resize: none;
+    font-size:18px;
+    font-weight: 500;
+}
+main button{
+    position: relative;
+    top: 50px;
+    left: 15%;
+    width: 40vw;
+    border-radius: 22px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    height: 60px;
+    width: 40vw;
+    background: #C3C2F9;
+    border: 2px;
+    transition: 0.20s;
+}
+main button:hover{
+    cursor:pointer;
+    background: #b8b7ee;
+    background: #b8b7ee;
+    box-shadow:  8px 8px 29px #a6a5d4,
+                 -8px -8px 29px #e0dfff;
+}
+.btnincorner{
+    color:#f7f2fc;
+    position: absolute;
+    top:100px;
+    left: calc(100% - 340px);
+    border-radius: 28px;
+    font-size: 42px;
+    width:240px;
+    border: 0px solid; 
+    background: linear-gradient(145deg, #d1d0ff, #b0afe0);
+    box-shadow:  20px 20px 60px #a6a5d4,
+                -20px -20px 60px #e0dfff;
+    transition:0.25s;
+    display: flex;
+    text-align: center;
+}
+.btnincorner:hover{
+    width:290px;
+    background: linear-gradient(145deg, #d1d0ff, #b0afe0);
+    box-shadow:  38px 38px 82px #a6a5d4,
+                -38px -38px 82px #e0dfff;
+}
+.btnincorner div{
+    position:relative;
+    left:-3px;
+    width:56px;
+    height:56px;
+    border-radius: 28px;
+    background: #b6b5ff;
+}
+.btnincorner div svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+}
+.backgraundpopup{
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0,0,0,0.4); 
+}
+.popupresults{
+    background-color: #F5F5F5;
+    margin: auto;
+    margin-bottom: 50%;
+    padding: 20px;
+    width: 65%;
+    height: 65%; 
+    border-radius: 24px;
+}
+.popupresults svg{
+    position: relative;
+    left: 30px;
+    top: 40px;
+    width:183.15506px;
+    height:183.15506px;
+}
+.popupline{
+    height:calc(100% - 70px);
+    position:relative;
+    top: -150px;
+    left: 250px;
+    width: 2px;
+    background: #D0D0E5;
+    border-radius: 7px;
+}
+.popuparticle{
+    height:calc(100% - 70px);
+    overflow-y: scroll;
+    position:relative;
+    top: -113%;
+    left: 270px;
+    width: calc(100% - 300px);
+}
+.popuparticle section{
+    width: calc(100% - 12px);
+    background: #D0D0E5;
+    border-radius: 7px;
+    margin-top: 25px;
+    padding-bottom: 0.1px;
+}
+.ask2{
+    position: relative;
+    top: 10px;
+    width: calc(100% - 20vw);
+    padding-right: 30px;
+    margin-left: 20px;
+    border-radius: 17px;
+    background: #C3C2F9;
+}
+.replay2{
+    position: relative;
+    bottom: 10px;
+    width: calc(100% - 10vw);
+    padding-right: 30px;
+    margin-top: 35px;
+    margin-left: 20px;
+    border-radius: 17px;
+    background: #C3C2F9;
+}
+.popuparticle span{
+    position: relative;
+    left: 20px;
+    height: auto;
+}
