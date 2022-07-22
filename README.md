@@ -3,7 +3,7 @@
 It is a page written in vanilla Javascript, CSS and HTML. It allows you to create your own QUIZ or TEST.
 
 ## Click bellow to test
-[![example](https://raw.githubusercontent.com/granacik320/QUIZ-MAKER-BASED-ON-URL-READING/main/CSS/quizmakerscr.png)](https://granacik320.github.io/PasswordGenerator/)
+[![example](https://raw.githubusercontent.com/granacik320/QUIZ-MAKER-BASED-ON-URL-READING/main/CSS/quizmakerscr.png)](https://granacik320.github.io/QUIZ-MAKER-BASED-ON-URL-READING/)
 ## Color Reference
 
 | Color             | Hex                                                                |
