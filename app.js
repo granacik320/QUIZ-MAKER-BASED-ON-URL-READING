@@ -34,5 +34,5 @@ function create(e){
         url.append("ask",ele.firstChild.value);
         url.append("replay",ele.lastChild.value);
     })
-    navigator.clipboard.writeText(window.location.origin + "/quiz.html" + "?" + url);
+    navigator.clipboard.writeText(window.location.origin + "/QUIZ-MAKER-BASED-ON-URL-READING" + "/quiz.html" + "?" + url);
 }
